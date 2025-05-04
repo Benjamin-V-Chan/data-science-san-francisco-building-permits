@@ -86,3 +86,23 @@ project-root/
    ```bash
    python3 scripts/06_visualization.py
    ```
+
+---
+
+## Requirements
+
+All dependencies are listed in `requirements.txt`. Major packages include:
+
+* pandas
+* numpy
+* scikit-learn
+* matplotlib
+* joblib
+
+---
+
+## Acknowledgments
+
+* **dataset name:** San Francisco Building Permits
+* **dataset author:** Aparna Shastry
+* **dataset source:** [https://www.kaggle.com/datasets/aparnashastry/building-permit-applications-data](https://www.kaggle.com/datasets/aparnashastry/building-permit-applications-data)
