@@ -1,1 +1,1 @@
-# data-science-san-fransisco-building-permits
+# data-science-san-francisco-building-permits
