@@ -36,3 +36,53 @@ project-root/
 │   └── figures/                # Plots and visualizations
 └── requirements.txt            # Python dependencies
 ```
+
+---
+
+## Usage
+
+1. **Setup the Project:**
+
+   * Clone the repository.
+   * Ensure you have Python installed.
+   * Install required dependencies using the requirements.txt file.
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+2. **Clean and Preprocess Data:**
+
+   ```bash
+   python3 scripts/01_load_and_clean.py
+   ```
+
+3. **Exploratory Data Analysis:**
+
+   ```bash
+   python3 scripts/02_explore.py
+   ```
+
+4. **Feature Engineering:**
+
+   ```bash
+   python3 scripts/03_feature_engineering.py
+   ```
+
+5. **Train Predictive Model:**
+
+   ```bash
+   python3 scripts/04_modeling.py
+   ```
+
+6. **Evaluate Model Performance:**
+
+   ```bash
+   python3 scripts/05_evaluation.py
+   ```
+
+7. **Generate Summary Visualizations:**
+
+   ```bash
+   python3 scripts/06_visualization.py
+   ```
