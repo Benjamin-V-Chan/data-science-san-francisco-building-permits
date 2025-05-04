@@ -29,7 +29,7 @@ def main():
     os.makedirs('../outputs/processed', exist_ok=True)
     raw = load_data()
     _ = load_dictionary()  # optional
-    z
+    
     cleaned = clean_df(raw)
     cleaned.to_csv('../outputs/processed/processed_permits.csv', index=False)
     print("Saved cleaned data to outputs/processed/processed_permits.csv")
